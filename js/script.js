@@ -1,5 +1,6 @@
 
 $(document).ready(function(){
+  console.log('Hi there!');
 
   $("#click").click(function (){ // #click - это класс или айди кнопки
     $('html, body').animate({
